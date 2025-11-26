@@ -10,7 +10,7 @@ MAX_SEQ_LENGTH = 20
 NUM_FEATURES = 2048
 
 
-model = keras.models.load_model('D:\\DEEPFAKE MODEL\\Files\\deepfake_video_model.h5')
+model = keras.models.load_model('./deepfake_video_model.h5')
 
 
 def build_feature_extractor():
